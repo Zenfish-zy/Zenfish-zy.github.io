@@ -1,0 +1,11 @@
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+deploy:
+    type: git
+    repo: git@github.com:secondtonone1/Zenfish-zy.github.io.git  #这里的网址填你自己的
+    branch: master
+```   
+保存后需要提前安装一个扩展：
+``` cmd
+npm install hexo-deployer-git --save
