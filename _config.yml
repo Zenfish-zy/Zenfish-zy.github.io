@@ -4,7 +4,7 @@ plugins:
 deploy:
     type: git
     repo: git@github.com:secondtonone1/Zenfish-zy.github.io.git  #这里的网址填你自己的
-    branch: master
+    branch: main
 ```   
 保存后需要提前安装一个扩展：
 ``` cmd
